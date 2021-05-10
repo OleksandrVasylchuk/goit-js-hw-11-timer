@@ -1,0 +1,70 @@
+body {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 35px;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;;
+  font-family: 'Marck Script',
+  cursive;
+    background-image: url('./img/2021Holidays___Easter_Multicolored_easter_eggs_on_a_wooden_table_149833_14.jpg');
+    
+}
+h1{
+    
+    font-size: 55px;
+    text-transform: uppercase;
+    color: transparent;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+
+     -webkit-text-stroke: 1px rgb(204, 12, 12);
+}
+
+.field{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50;
+    width: 136px;
+    height: 190px;
+    background-image: radial-gradient(#fdfb88 0, #fdfa48 22%, #fcf82e 45%, #faf613 50%, #fffb07 55%, #fffb07 78%, #fffb07 100%);
+    transition: background-color 2000ms linear;
+    
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+   -moz-box-shadow:0px 0px 30px #333333;
+   -webkit-box-shadow:0px 0px 30px #333333;
+   box-shadow:0px 0px 30px #333333;
+   -moz-box-shadow:inset 0px 0px 30px #333333;
+   -webkit-box-shadow:inset 0px 0px 30px #333333;
+   box-shadow:inset 0px 0px 30px #333333;
+}
+
+.value{
+    margin-right: 5px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+      -webkit-text-stroke: 1px rgb(156, 9, 16);
+}
+.label{
+    
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(6, 107, 20);
+    font-size: 25px;
+}
+
+/* .timer{
+font-size: 55px;
+text-transform: uppercase;
+color: transparent;
+letter-spacing: 5px;
+font-weight: bold;
+background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+
+-webkit-text-stroke: 1px rgb(204, 12, 12);
+} */
