@@ -17,7 +17,7 @@ class CountdownTimer {
     const nowDate = Date.now();
     const time = this.targetDate - nowDate;
     this.updateClockface(time);
-this.timeFinish(time);
+    this.timeFinish(time);
   }, 1000);
 
   updateClockface(time) {
@@ -27,10 +27,7 @@ this.timeFinish(time);
     );
     const mins = this.pad(Math.floor((time % (1000 * 60 * 60)) / (1000 * 60)));
     const secs = this.pad(Math.floor((time % (1000 * 60)) / 1000));
-    refs.days.textContent = `${days}`;
-    refs.hours.textContent = `${hours}`;
-    refs.mins.textContent = `${mins}`;
-    refs.secs.textContent = `${secs}`;
+    changeInterfaseTimer({days, hours, mins, secs})
   }
 
   pad(value) {
@@ -49,4 +46,9 @@ new CountdownTimer({
   targetDate: new Date("April 24, 2022"),
 });
 
-
+function changeInterfaseTimer({days, hours, mins, secs}) {
+  refs.days.textContent = `${days}`;
+    refs.hours.textContent = `${hours}`;
+    refs.mins.textContent = `${mins}`;
+    refs.secs.textContent = `${secs}`;
+};
