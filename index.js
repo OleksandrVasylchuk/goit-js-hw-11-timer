@@ -27,7 +27,7 @@ class CountdownTimer {
     );
     const mins = this.pad(Math.floor((time % (1000 * 60 * 60)) / (1000 * 60)));
     const secs = this.pad(Math.floor((time % (1000 * 60)) / 1000));
-    changeInterfaseTimer({days, hours, mins, secs})
+    changeInterfaseTimer({days, hours, mins, secs});
   }
 
   pad(value) {
